@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+p{
+    background-color: orange;
+}
+button{
+    font-size: 18px;
+    background-color: orange;
+    color: white;
+    width: 25vw;
+    height: 5vh;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 5px;
+    
+}
+.form{
+    width: 30vw;
+    height: 4vh;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ladoEsquerdo{
+    width: 49%;
+    height: 475px;
+    background-image: url(Assets/Escritório.jfif);
+    background-position: right;
+    border: 25px solid white;
+    margin: 10px;
+    
+    
+}
+
+.ladoDireito{
+    width:49%;
+    height:100%;
+}
+
+.x{
+    width: 2%;
+    height: 3%;
+}
+.comentario{
+    text-decoration-color: oran;
+}
+
+
